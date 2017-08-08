@@ -19,7 +19,7 @@ button.onclick = function() {
     };
     
     //make a request
-    request.open('GET','//http://samarthjoelram.imad.hasura-app.io/counter',true);
+    request.open('GET','http://samarthjoelram.imad.hasura-app.io/counter',true);
     request.send(null);
     
     // render the variable in the correct span
