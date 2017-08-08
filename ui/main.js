@@ -11,7 +11,7 @@ button.onclick = function() {
     counter = counter + 1;
     var span = documnt.getElementById('count');
     span.innerHTML = counter.toString();
-}
+};
 
 /*console.log('Loaded!');
 
